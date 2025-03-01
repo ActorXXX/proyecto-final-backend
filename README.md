@@ -16,5 +16,29 @@ https://github.com/ActorXXX/proyecto-final-backend.git
 git init
 git add .
 git commit -m "Carga inicial de proyecto"
-git 
+git remote add origin https://github.com/ActorXXX/proyecto-final-backend.git
 ```
+
+## Creacion del Entorno Virtual
+```python
+python -m venv entorno_django
+```
+
+## Instalacion de las dependencias
+```python
+pip install django
+```
+
+## Crear el proyecto
+```python
+django-admin startproyect django_ecommerce .
+```
+
+## Se crearon los archivos:
+.env | .gitignore
+
+## Se creo el archivo requirements.txt
+```bash
+pip freeze > requirements.txt
+```
+
